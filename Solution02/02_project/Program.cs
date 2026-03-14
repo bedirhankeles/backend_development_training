@@ -1,4 +1,11 @@
 ﻿
-string name = "Ahmet";
+Console.WriteLine("Lütfen Adınızı Giriniz !");
+string? name = Console.ReadLine();
 
-Console.WriteLine("Merhaba, " + name);
+Console.WriteLine("Merhaba " + name + ".");
+
+
+
+
+
+
